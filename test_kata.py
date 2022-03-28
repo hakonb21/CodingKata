@@ -30,3 +30,7 @@ def test_support_multiple_numbers():
 def test_newline():
     assert add("1\n2,3") == 6
 
+#6
+def test_ignore_numbers_bigger_than_1000():
+    assert add("1001,2") == 2
+
