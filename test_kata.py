@@ -28,5 +28,5 @@ def test_support_multiple_numbers():
 
 #5
 def test_newline():
-    assert add("1,\n2,3") == 6
+    assert add("1\n2,3") == 6
 
