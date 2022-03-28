@@ -1,0 +1,2 @@
+def kata(str):
+    pass
