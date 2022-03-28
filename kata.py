@@ -1,2 +1,3 @@
 def kata(str):
-    pass
+    if str == "":
+        return 0
