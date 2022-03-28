@@ -1,6 +1,6 @@
 def add(str):
     if str == "":
         return 0
-
-    if str.isnumeric():
+    else:
         return int(str)
+
