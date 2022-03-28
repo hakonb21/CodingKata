@@ -1,7 +1,7 @@
-from kata import kata 
+from kata import add 
 
 def test_empty_string():
-    assert kata("") == 0
+    assert add("") == 0
+    
 
-def test_int():
-    assert kata()
+ 
