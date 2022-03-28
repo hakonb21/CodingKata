@@ -6,4 +6,4 @@ def test_empty_string():
 
 def test_int():
     for i in range(0,100):
-        assert kata("i") == i
+        assert add("i") == i
