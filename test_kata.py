@@ -39,4 +39,6 @@ def test_negative_numbers():
     with pytest.raises(ValueError):
         add("2,-4,3,-5")
 
-
+#8 
+def test_change_delimeter():
+    assert add("//%\n1%2%3") == 6
