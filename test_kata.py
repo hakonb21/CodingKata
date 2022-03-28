@@ -26,3 +26,7 @@ def test_support_two_numbers_3():
 def test_support_multiple_numbers():
     assert add("1,2,3,4,5,6,7,8,9,10,11") == 1+2+3+4+5+6+7+8+9+10+11
 
+#5
+def test_newline():
+    assert add("1,\n2,3") == 6
+
