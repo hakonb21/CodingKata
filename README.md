@@ -1,0 +1,2 @@
+# CodingKata
+Hópaverkefni Kerfisgreining kerfishönnun
