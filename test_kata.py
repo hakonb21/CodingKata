@@ -27,10 +27,16 @@ def test_support_multiple_numbers():
     assert add("1,2,3,4,5,6,7,8,9,10,11") == 1+2+3+4+5+6+7+8+9+10+11
 
 #5
-def test_newline():
+def test_newline(): 
     assert add("1\n2,3") == 6
 
 #6
 def test_ignore_numbers_bigger_than_1000():
     assert add("1001,2") == 2
+
+#7 
+def test_negative_numbers():
+    with pytest.raises(ValueError):
+        add("2,-4,3,-5")
+
 
