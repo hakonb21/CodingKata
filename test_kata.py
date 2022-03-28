@@ -7,8 +7,7 @@ def test_empty_string():
 
 #2
 def test_int():
-    for i in range(0,100):
-        assert add("i") == i
+    assert add("14") == 14
 
 #3
 def test_support_two_numbers_1():
