@@ -1,6 +1,10 @@
 def add(str):
     if str == "":
         return 0
-    else:
+    split = str.split(",")
+    if len(split) == 1:
         return int(str)
+
+   
+        
 
