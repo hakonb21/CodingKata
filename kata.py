@@ -3,3 +3,4 @@ def add(str):
         return 0
     else:
         return int(str)
+
